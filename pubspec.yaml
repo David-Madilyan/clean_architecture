@@ -1,0 +1,84 @@
+name: health_connect
+description: An application for users who want to be able to constantly remind them to take pills, take blood pressure, pulse, blood sugar, etc. To monitor the elderly people
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # styles plugins for app
+  cupertino_icons: ^1.0.2
+  sliding_up_panel: ^2.0.0+1
+  persistent_bottom_nav_bar: ^4.0.2
+  flutter_neumorphic: ^3.1.0
+  material_floating_search_bar: ^0.3.4
+  table_calendar: ^3.0.0
+
+  # state manager
+  get: ^4.1.4
+
+  # local storage
+  hive: ^2.0.2
+  hive_flutter: ^1.0.0
+
+  #localization
+  easy_localization: ^3.0.0
+
+  # services
+  http: ^0.13.1
+  socket_io_client: ^1.0.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path_android: "assets/img/icon_android.png"
+  image_path_ios: "assets/img/icon_ios.png"
+  android: true
+  ios: true
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/dark_bckgrnd.png
+    - assets/img/light_bckgrnd.png
+    - assets/img/logo.png
+    - assets/img/min_company.png
+    - assets/translations/
+  fonts:
+    - family: behola
+      fonts:
+        - asset: assets/fonts/bellota_light.ttf
+          weight: 200
+        - asset: assets/fonts/bellota_regular.ttf
+          weight: 400
+        - asset: assets/fonts/bellota_bold.ttf
+          weight: 600
+
+    - family: nunito
+      fonts:
+        - asset: assets/fonts/nunito_light.ttf
+          weight: 200
+        - asset: assets/fonts/nunito_regular.ttf
+          weight: 400
+        - asset: assets/fonts/nunito_bold.ttf
+          weight: 600
+
+    - family: rubik
+      fonts:
+        - asset: assets/fonts/rubik_light.ttf
+          weight: 200
+        - asset: assets/fonts/rubik_regular.ttf
+          weight: 400
+        - asset: assets/fonts/rubik_medium.ttf
+          weight: 600
