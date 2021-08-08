@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:health_connect/common/bindings.dart';
-import 'package:health_connect/common/pages.dart';
-import 'package:health_connect/common/theme.dart';
-import 'package:health_connect/common/utils.dart';
-import 'package:health_connect/screens/intro/intro_view.dart';
+import '/common/bindings.dart';
+import '/common/pages.dart';
+import '/common/theme.dart';
+import '/common/utils.dart';
+import '/screens/intro/intro_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
