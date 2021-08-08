@@ -1,4 +1,4 @@
-# clean_acrhitecture
+# clean_architecture
 Started project include common acrhitecture for flutter projects
 
 ## Getting Started
