@@ -1,6 +1,5 @@
-# health_connect
-
-An application for users who want to be able to constantly remind them to take pills, take blood pressure, pulse, blood sugar, etc. To monitor the elderly people
+# clean_acrhitecture
+Started project include common acrhitecture for flutter projects
 
 ## Getting Started
 
